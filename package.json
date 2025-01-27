@@ -1,0 +1,20 @@
+{
+  "name": "apps-status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node ./src/index.ts",
+    "save-historic": "ts-node src/scripts/historic.ts",
+    "all": "npx ts-node ./src/index.ts && ts-node src/scripts/historic.ts"
+  },
+  "keywords": [],
+  "author": "rafamatoso <rafaelmatosog@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
