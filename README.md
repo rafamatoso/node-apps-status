@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto verifica o status de URL's e gera relatórios em formato CSV e Markdown. Os resultados são organizados por data e armazenados automaticamente em uma pasta `output/YYYY-MM-DD`. Além disso, um histórico geral é mantido em `output/history.csv`.
+Este projeto verifica o status de URL's e gera relatórios em formato CSV e Markdown. Os resultados são organizados por data e armazenados automaticamente em uma pasta `output/YYYY-MM-DD`. Além disso, um histórico geral é mantido em `output/historic.csv`.
 
 ## Requisitos
 
